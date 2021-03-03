@@ -71,7 +71,7 @@ class Database(Dataset):
             weight_file = key.replace('/', '.') + '.weights.hf5'
 
             workspace.save_tsdf_data(tsdf_file, tsdf_volume)
-            workspace.save_weigths_data(weight_file, weight_volume)
+            workspace.save_weights_data(weight_file, weight_volume)
 
     def save(self, path, scene_id=None, epoch=None, groundtruth=False):
 
