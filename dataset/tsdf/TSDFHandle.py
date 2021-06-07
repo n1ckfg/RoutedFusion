@@ -3,7 +3,7 @@ import numpy as np
 
 from pyntcloud import PyntCloud
 
-from TSDFVolume import TSDFVolume, MulticlassTSDFVolume
+from .src.TSDFVolume import TSDFVolume, MulticlassTSDFVolume
 
 
 class TSDF:
