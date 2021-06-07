@@ -4,7 +4,7 @@ from .sampler import mesh_to_pointcloud
 from .transform import compute_tsdf
 from .utils import extract_mesh_marching_cubes
 
-from tsdf import depth_rendering
+from .tsdf/TSDFHandle import depth_rendering
 
 from gridData import OpenDX
 from tqdm import tqdm
