@@ -4,7 +4,8 @@ import h5py
 import numpy as np
 
 from torch.utils.data import Dataset
-from graphics import Voxelgrid
+from ..dataset.voxelgrid import Voxelgrid
+
 
 from utils.metrics import evaluation
 
