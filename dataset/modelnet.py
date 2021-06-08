@@ -6,7 +6,7 @@ from skimage import io, transform
 from torch.utils.data import Dataset
 from copy import copy
 
-from graphics import Voxelgrid
+from .voxelgrid import Voxelgrid
 
 from scipy.ndimage.morphology import binary_dilation
 
