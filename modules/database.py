@@ -5,7 +5,7 @@ import numpy as np
 
 from torch.utils.data import Dataset
 
-from .dataset.voxelgrid import Voxelgrid
+from voxelgrid.voxelgrid import Voxelgrid
 
 from utils.metrics import evaluation
 
