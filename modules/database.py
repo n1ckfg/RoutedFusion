@@ -5,10 +5,7 @@ import numpy as np
 
 from torch.utils.data import Dataset
 
-import sys
-sys.path.append("../dataset")
-from voxelgrid import Voxelgrid
-
+from .dataset.voxelgrid import Voxelgrid
 
 from utils.metrics import evaluation
 
