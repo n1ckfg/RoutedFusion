@@ -4,7 +4,10 @@ import h5py
 import numpy as np
 
 from torch.utils.data import Dataset
-from ..dataset.voxelgrid import Voxelgrid
+
+import sys
+sys.path.append("../dataset")
+from voxelgrid import Voxelgrid
 
 
 from utils.metrics import evaluation
